@@ -499,7 +499,7 @@ define([
         console.log("[run_through] cell execution finished: index=%s, status=%s", index, status);
         if (status == "ok") {
             console.log('[run_through] freeze executed cell: %d', index);
-            freeze_cell(cell);
+            //freeze_cell(cell);
         }
         var results = result_views[cell.cell_id];
         if (results) {
