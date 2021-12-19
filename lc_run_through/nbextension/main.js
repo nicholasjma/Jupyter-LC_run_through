@@ -295,11 +295,12 @@ define([
     }
 
     function heading_collapsed(cell) {
+        remove_execute_ui(cell);
         create_execute_ui(cell);
     }
 
     function heading_expanded(cell) {
-        remove_execute_ui(cell);
+        //remove_execute_ui(cell);
     }
 
     function create_execute_ui(cell) {
