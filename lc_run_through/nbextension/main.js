@@ -334,7 +334,7 @@ define([
     }
 
     function create_result_view(container, heading_cell, section_cells) {
-        for(var i=0; i<section_cells.length; ++i) {
+        for(var i=section_cells.length - 1; i >= 0; --i) {
             var cell = section_cells[i];
             var elem;
             if (cell instanceof codecell.CodeCell) {
