@@ -310,9 +310,9 @@ define([
         var btn = $('<button class="btn btn-default"/>')
                     .appendTo(container);
 
-        var clickable = btn.find('button');
-        $('<i class="fa fa-fw fa-play-circle"/>').appendTo(clickable);
-        clickable.on('click', function (e) {
+        //var clickable = btn.find('button');
+        $('<i class="fa fa-fw fa-play-circle"/>').appendTo(btn);
+        btn.on('click', function (e) {
            execute_section(cell);
         });
 
