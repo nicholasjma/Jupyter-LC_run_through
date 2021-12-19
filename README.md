@@ -18,7 +18,7 @@ Successfully executed cells are frozen automatically to prevent to re-run.
 
 Install the python package
 
-    $ pip install git+https://github.com/NII-cloud-operation/Jupyter-LC_run_through
+    $ pip install git+https://github.com/nicholasjma/Jupyter-LC_run_through
 
 Install and enable this extension and enable required extensions
 
