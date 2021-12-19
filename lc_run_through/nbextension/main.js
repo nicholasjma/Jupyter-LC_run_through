@@ -307,8 +307,7 @@ define([
                     .addClass('run-through')
                     .appendTo(cell.element.find('.inner_cell'));
 
-        var btn = $('<div/>')
-                    .append('<button class="btn btn-default"/>')
+        var btn = $('<button class="btn btn-default"/>')
                     .appendTo(container);
 
         var clickable = btn.find('button');
